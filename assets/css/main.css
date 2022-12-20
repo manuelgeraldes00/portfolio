@@ -33,6 +33,11 @@ body {
 	line-height: 1;
 }
 
+.column {
+	width: 318px;
+	float: left;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -110,10 +115,16 @@ input, select, textarea {
 		color: #888;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5 {
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
+	}
+
+	h6 {
+		font-weight: 300;
+		color: #666;
+		line-height: 1em;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2222,7 +2233,7 @@ input, select, textarea {
 				color: rgba(255, 255, 255, 0.75);
 			}
 
-				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6{
 					color: inherit;
 				}
 
