@@ -34,8 +34,13 @@ body {
 }
 
 .column {
-	width: 318px;
+	width: 300px;
 	float: left;
+}
+
+#column_container {
+	width: 900px;
+	margin: 0 auto;
 }
 
 ol, ul {
@@ -168,6 +173,7 @@ input, select, textarea {
 	strong, b {
 		font-weight: 300;
 		color: #666;
+		font-weight: bold;
 	}
 
 	em, i {
