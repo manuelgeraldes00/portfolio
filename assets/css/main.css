@@ -2004,7 +2004,7 @@ input, select, textarea {
 		.item header {
 			background: #fff;
 			margin: 0;
-			padding: 1em 0 1em 0;
+			padding: 1em 0.5em 1em 0.5em;
 			font-size: 0.8em;
 		}
 
